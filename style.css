@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@media (min-width:1440px) {
+    body{
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(217, 54%, 11%);
+        color: white;
+    }
+    main{
+        margin: 10em 50em;
+        padding: 1.5em;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: hsl(216, 50%, 16%);
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    a:hover{
+        color: cyan;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    p{
+        color: rgb(191, 189, 189);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .eth{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .clock{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        float: right;
+    }
+    .icon{
+        width: 0.8em;
+    }
+    .icon2{
+        width: 1.2em;
+    }
+    .p2{
+        margin-top: -0em;
+        margin-left: -2.3em;
+        color: cyan;
+    }
+    .p3{
+        margin-top: -0.1em;
+        margin-left: -2.4em;
+        
+    }
+    .avatar{
+        border-radius:100%;
+        width: 35%;
+        border-style:solid;
+        margin-top: 0.5em;
+    }
+    .user{
+        margin-top: 1.5em;
+        margin-left: -5em;
+        font-size: 0.85em;
+    }
+    .cor:hover{
+        opacity: 1;
+    }
+}
+@media (max-width:800px) {
+    body{
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(217, 54%, 11%);
+        color: white;
+    }
+    main{
+        margin: 2em 2em;
+        padding: 1.5em;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: hsl(216, 50%, 16%);
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    a:hover{
+        color: cyan;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    p{
+        color: rgb(191, 189, 189);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .eth{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .clock{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        float: right;
+    }
+    .icon{
+        width: 0.8em;
+    }
+    .icon2{
+        width: 1.2em;
+    }
+    .p2{
+        margin-top: -0em;
+        margin-left: -4em;
+        color: cyan;
+    }
+    .p3{
+        margin-top: -0.1em;
+        margin-left: -4em;
+        
+    }
+    .avatar{
+        border-radius:100%;
+        width: 35%;
+        border-style:solid;
+        margin-top: 0.5em;
+    }
+    .user{
+        margin-top: 2.5em;
+        margin-left: -7em;
+        font-size: 0.85em;
+    }
+    .cor:hover{
+        opacity: 1;
+    }
+}
